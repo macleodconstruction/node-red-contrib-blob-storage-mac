@@ -1,4 +1,4 @@
-# node-red-contrib-azure-blob-storage-aleph
+# node-red-contrib-blob-storage-mac
 
 node-red-contrib-azure-blob-storage is a <a href="http://nodered.org" target="_new">Node-RED</a> node that allows you to work with Azure Blob Storage. You can create and delete Containers and also blob files.
 
