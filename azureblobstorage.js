@@ -172,7 +172,7 @@ module.exports = function (RED) {
     }
 
     // Registration of the node into Node-RED
-    RED.nodes.registerType("Aleph Save Blob", AzureBlobStorage, {
+    RED.nodes.registerType("Save Blob", AzureBlobStorage, {
         credentials: {
             accountname: { type: "text" },
             key: { type: "text" },
@@ -185,7 +185,7 @@ module.exports = function (RED) {
     });
 
     // Registration of the node into Node-RED to download
-    RED.nodes.registerType("Aleph Get Blob", AzureBlobStorageDownload, {
+    RED.nodes.registerType("Get Blob", AzureBlobStorageDownload, {
         credentials: {
             accountname: { type: "text" },
             key: { type: "text" },
