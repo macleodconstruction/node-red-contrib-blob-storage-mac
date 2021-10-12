@@ -1,12 +1,12 @@
 {
   "name": "node-red-contrib-blob-storage-mac",
   "description": "Connector to Azure Blob Storage on Node-Red",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "node": ">=0.10.0"
   },
   "dependencies": {
-    "azure-storage": "2.10.4"
+    "azure-storage": "2.10.5"
   },
   "keywords": [
     "node-red",
